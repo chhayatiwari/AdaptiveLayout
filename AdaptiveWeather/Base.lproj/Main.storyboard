@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="landscape">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,17 +14,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AdaptiveWeather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud_small" translatesAutoresizingMaskIntoConstraints="NO" id="kSs-0H-v8M">
-                                <rect key="frame" x="10" y="89.5" width="300" height="196"/>
+                                <rect key="frame" x="10" y="40" width="300" height="196"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aaK-4k-mSp" userLabel="TextContainer">
-                                <rect key="frame" x="333.5" y="0.0" width="333.5" height="375"/>
+                                <rect key="frame" x="0.0" y="256" width="320" height="312"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noida" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="QYG-Qw-hRu">
-                                        <rect key="frame" x="0.0" y="10" width="333.5" height="107.5"/>
+                                        <rect key="frame" x="0.0" y="10" width="320" height="107.5"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="150"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -33,7 +33,7 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ruz-u8-GrI">
-                                        <rect key="frame" x="0.0" y="185.5" width="333.5" height="179.5"/>
+                                        <rect key="frame" x="0.0" y="122.5" width="320" height="179.5"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="250"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
